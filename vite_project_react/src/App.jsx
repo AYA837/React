@@ -1,9 +1,9 @@
 import "./App.css";
-import { useState } from "react"; //we will be using to handle data changing
-import { useEffect } from "react";
+import { useState , useEffect } from "react"; //we will be using to handle data changing
 
-//we can create other from the same card syntax and use it in app
 
+//we can create html tags like this  card using the provided   syntax and use it in app
+ 
 const WelcomeMessage = ({ argument }) => {
   //argument plays the role of data arguments in regulair functions
   //useEffect hook:
@@ -11,7 +11,7 @@ const WelcomeMessage = ({ argument }) => {
 
   useEffect(() => {
     //js code can be run here
-    console.log("useEffect is working");
+    console.log("useEffect is working"); 
   });
 
   //so that app can give it a value and manipulates inside the new component holder
@@ -26,6 +26,7 @@ const App = () => {
     //or style using the class name and a seperate css file
     <div>
       <h1 className="myFirstLine">Hello World</h1>
+      
       <WelcomeMessage argument="Argument 1" />
       <WelcomeMessage argument="Argument 2" />
       <WelcomeMessage argument="Argument 3" />
