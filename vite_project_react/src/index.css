@@ -20,7 +20,7 @@
 
   --breakpoint-xs: 480px;
 
-  --background-image-hero-pattern: url("/hero-bg.png");
+  --background-image-hero-pattern: url("/BG.jpg");
 }
 
 @layer base {
@@ -146,7 +146,7 @@
 }
 
 @utility text-gradient {
-  @apply bg-linear-to-r from-[#D6C7FF] to-[#AB8BFF] bg-clip-text text-transparent;
+  @apply bg-linear-to-r from-[#984351] to-[#ed0b0b] bg-clip-text text-transparent;
 }
 
 @utility fancy-text {
