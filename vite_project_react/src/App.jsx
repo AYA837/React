@@ -6,7 +6,7 @@ import './index.css'
 const App = () => {
   //we will keep track of the novels , using a state in the APP file
 
-  const [searchTerm, setsearchTerm] = useState('my name is aya');
+  const [searchTerm, setsearchTerm] = useState('');
   return (
     <div className='pattern' >
       <div className='wrapper'>
